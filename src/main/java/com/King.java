@@ -1,7 +1,7 @@
 package com;
 import java.util.Random;
 
-public class King extends Character{
+public class King extends Character {
     private KickBehavior kickBehavior = new Sword();
     private static final int maxHp = 15;
     private static final int maxPower = 15;
@@ -9,7 +9,7 @@ public class King extends Character{
     private static final int minPower =  5;
     private static final Random rand = new Random();
 
-    King() {
+    public King() {
         super(rand.nextInt(maxHp) + minHP, rand.nextInt(maxPower) + minPower);
     }
     private final int power = this.getPower();
