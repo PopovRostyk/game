@@ -4,7 +4,7 @@ public abstract class Character {
     private int hp;
     private int power;
 
-    public Character(int hp, int power) {
+    Character(int hp, int power) {
         this.hp = hp;
         this.power = power;
     }
@@ -21,7 +21,7 @@ public abstract class Character {
         return power;
     }
 
-    public void setPower(int power) {
+    void setPower(int power) {
         this.power = power;
     }
 

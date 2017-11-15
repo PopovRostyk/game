@@ -1,6 +1,6 @@
 package com;
 
-public interface KickBehavior {
+interface KickBehavior {
 
     void kick(Character c1, Character c2);
 }

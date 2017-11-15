@@ -1,7 +1,7 @@
 package com;
 
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         CharacterFactory charFact = new CharacterFactory();
         GameManager gameManager = new GameManager();

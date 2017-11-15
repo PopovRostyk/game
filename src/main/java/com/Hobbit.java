@@ -5,9 +5,10 @@ public class Hobbit extends Character{
     Hobbit() {
         super(3, 0);
     }
-    public String toCry(){
+    private String toCry(){
         return this.toString() + " has zero chances";
     }
+
 
     @Override
     public void kick(Character c) {

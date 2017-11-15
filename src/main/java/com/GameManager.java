@@ -1,6 +1,6 @@
 package com;
 
-public class GameManager {
+class GameManager {
     void fight(Character c1, Character c2){
         System.out.println(c1.toString() + " and " + c2.toString() + " started fight!");
         while(c1.isAlive() && c2.isAlive()){

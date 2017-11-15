@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class CharacterFactory {
+class CharacterFactory {
     private static List<Character> chars= new ArrayList<>();
     private static Random rand = new Random();
     public Character createCharacter(){
