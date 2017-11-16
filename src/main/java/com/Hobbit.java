@@ -12,7 +12,6 @@ public class Hobbit extends Character {
 
     @Override
     public void kick(Character c) {
-        String msg = this.toCry();
         System.out.println(toCry());
         this.setHp(0);
     }

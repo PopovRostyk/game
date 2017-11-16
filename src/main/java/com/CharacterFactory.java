@@ -6,7 +6,7 @@ import java.util.Set;
 
 class CharacterFactory {
     private static Random rand = new Random();
-    public static Character createCharacter() {
+    public Character createCharacter() {
         Set<Class<? extends Character>> characters = new Reflections().getSubTypesOf(Character.class);
         Class<? extends Character> cls = ( Class<? extends Character>) characters.toArray()[rand.nextInt(characters.size())];
         try {

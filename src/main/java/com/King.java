@@ -2,17 +2,16 @@ package com;
 import java.util.Random;
 
 public class King extends Character {
-    private KickBehavior kickBehavior = new Sword();
     private static final int maxHp = 10;
     private static final int maxPower = 10;
     private static final int minHP = 5;
     private static final int minPower =  5;
     private static final Random rand = new Random();
+    private KickBehavior kickBehavior = new Sword();
 
     public King() {
         super(rand.nextInt(maxHp) + minHP, rand.nextInt(maxPower) + minPower);
     }
-    private final int power = this.getPower();
 
     @Override
     public void kick(Character c) {
