@@ -1,6 +1,6 @@
 package com;
 
-public abstract class Character<T> {
+public abstract class Character {
     private int hp;
     private int power;
 
@@ -29,7 +29,7 @@ public abstract class Character<T> {
         return hp > 0;
     }
 
-    public void kick(Character<T> c) {
+    public void kick(Character c) {
     }
 
     @Override
