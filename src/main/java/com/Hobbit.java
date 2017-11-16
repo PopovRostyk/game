@@ -5,7 +5,7 @@ public class Hobbit extends Character {
     public Hobbit() {
         super(3, 0);
     }
-    private String toCry(){
+    private String toCry() {
         return this.toString() + " has zero chances";
     }
 

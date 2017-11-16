@@ -7,10 +7,10 @@ public class Elf extends Character {
     }
     @Override
     public void kick(Character c) {
-        if (c.getPower() < this.getPower()){
-            kickBehavior = (c1, c2) -> c2.setHp(0);
+        if (c.getPower() < this.getPower()) {
+            kickBehavior = (characterOne, characterTwo) -> characterTwo.setHp(0);
         }
-        else{kickBehavior = (c1, c2) -> c2.setPower(c2.getPower() - 1);
+        else { kickBehavior = (characterOne, characterTwo) -> characterTwo.setPower(characterTwo.getPower() - 1);
         }
         kickBehavior.kick(this, c);
     }

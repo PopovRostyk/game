@@ -4,18 +4,21 @@ import java.util.Random;
 
 public class Knight extends Character {
     private KickBehavior kickBehavior = new Sword();
-    private static final int maxHp = 19;
-    private static final int maxPower = 19;
-    private static final int minHP = 2;
-    private static final int minPower =  2;
-    private static final Random rand = new Random();
+    private static final int MAX_HP = 19;
+    private static final int MAX_POWER = 19;
+    private static final int MIN_HP = 2;
+    private static final int MIN_POWER =  2;
+    private static final Random RAND = new Random();
     public Knight() {
-        super(rand.nextInt(maxHp) + minHP, rand.nextInt(maxPower) + minPower);
+        super(RAND.nextInt(MAX_HP) + MIN_HP,
+                RAND.nextInt(MAX_POWER) + MIN_POWER);
     }
 
     @Override
     public void kick(Character c) {
-        kickBehavior = ((c1, c2) -> c2.setHp(c2.getHp() - rand.nextInt(maxPower) - minPower));
+        kickBehavior = ((characterOne, characterTwo) ->
+                characterTwo.setHp(characterTwo.getHp()
+                        - RAND.nextInt(MAX_POWER) - MIN_POWER));
         kickBehavior.kick(this, c);
     }
 
