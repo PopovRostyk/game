@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d72343-69a9-4db3-8e0d-9e60aeb714de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/CharacterFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/CharacterFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,12 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CharacterFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/CharacterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterFactoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/KingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/HobbitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/CharacterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/GameManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/King.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Knight.java" />
@@ -119,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/GameManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/CharacterFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -480,7 +492,7 @@
       <workItem from="1510731122503" duration="10550000" />
       <workItem from="1510861637039" duration="5285000" />
       <workItem from="1510874006050" duration="22000" />
-      <workItem from="1510894969036" duration="3768000" />
+      <workItem from="1510894969036" duration="3886000" />
     </task>
     <servers />
   </component>
@@ -517,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19625000" />
+    <option name="totallyTimeSpent" value="19743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -772,14 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.10/reflections-0.9.10.jar!/org/reflections/Reflections.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -847,6 +851,16 @@
         <state relative-caret-position="195">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CharacterFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
